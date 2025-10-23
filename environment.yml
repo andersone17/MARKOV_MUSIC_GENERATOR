@@ -12,6 +12,8 @@ dependencies:
   - networkx
   - ipykernel
   - jupyter
+  - fsspec
+  - huggingface_hub
   - pip
   - pip:
       - music21
