@@ -1,0 +1,15 @@
+name: markov_music
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.11
+  - pandas
+  - numpy
+  - seaborn
+  - matplotlib
+  - networkx
+  - pip
+  - pip:
+      - music21
