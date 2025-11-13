@@ -1,6 +1,12 @@
 # MARKOV_MUSIC_GENERATOR: Understanding Uncertainty Project 1
 ## Eddie, Heywood, Finn, Chase, and Harrison
 
+
+## For Terry and Oai:
+"project_questions.md" has our written answers.
+"markov_music_generator.ipynb" has our project code. 
+
+
 ## Research Question and Motivation
 Can we create new music computationally that sounds similar to existing music? 
 
@@ -21,30 +27,3 @@ The columns of our data are as follows: id, chords, release date, genres, decade
 
 ## Data Limitations
 Something interesting we noticed is that the authors of the dataset compressed identical chords into one single chord. For example, if the original sequence was A-G-G-A, the sequence the authors stored was simply A-G-A. This could greatly change the way the msuic sounds by removing long similar melodic strings. 
-
-## Modeling Frame work (Input to Data)
-
-
-
-
-# Recommended Project Steps from Oai
-
-## Phase 1 EDA
-a. Create a meta data - feature names and label  
-b. Analysis features - Descriptive stats, multi var. analysis, Visualization, pattern/trends  
-
-## Phase 2 Data Preparation
-a. Cleaning: Handle missing values(imputes), duplicates, inconsistencies,  
-b. Feature engineering: Domain-specific features, interactions, aggregations  
-c. Encoding: One-hot, label encoding, embeddings  
-d. Scaling/normalization: Min-Max, StandardScaler, RobustScaler  
-e. Features selection - Which variable to use etc. this is extremely important  
-Features selection can be PCA, K-nn mean, Lasso, Multi-correlation etc.  
-
-## Phase 3 Model
-Split - Train/val/test. Train data set is for traing the model, val to validate and ensure no overfiting etc. Test or Out-of-Time data is the final results.  
-Modeling  
-
-## Phase 4 compare results - ad hoc analysis etc.
-
-## Phase 5 Write up
